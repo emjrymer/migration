@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 from django.db import migrations
 
 
-
 def read_data():
     with open("/Users/emilywivell/PycharmProjects/Django_Migrations/text.txt") as infile:
         data = infile.readlines()
